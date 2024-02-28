@@ -1,0 +1,1526 @@
+@font-face {
+  font-family: 'abb_set2';
+  src:  url('fonts/abb_set2.eot?urzsqh');
+  src:  url('fonts/abb_set2.eot?urzsqh#iefix') format('embedded-opentype'),
+    url('fonts/abb_set2.ttf?urzsqh') format('truetype'),
+    url('fonts/abb_set2.woff?urzsqh') format('woff'),
+    url('fonts/abb_set2.svg?urzsqh#abb_set2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon_abb_dias{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'abb_set2' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  cursor: pointer;
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-abb_operation:before {
+  content: "\ea40";
+}
+.icon-abb_supplychain:before {
+  content: "\ea41";
+}
+.icon-abb_sustainibility:before {
+  content: "\ea42";
+}
+.icon-abb_folder:before {
+  content: "\ea43";
+}
+.icon-abb_ecology-leaf-bulb:before {
+  content: "\eae1";
+}
+.icon-abb_single-shield:before {
+  content: "\eae2";
+}
+.icon-abb_single-graph:before {
+  content: "\eae3";
+}
+.icon-abb_performance-money-increase:before {
+  content: "\eae4";
+}
+.icon-abb_synchronize-arrows-warning:before {
+  content: "\eaba";
+}
+.icon-abb_synchronize-arrows:before {
+  content: "\eabb";
+}
+.icon-abb_app-window-module:before {
+  content: "\eabc";
+}
+.icon-abb_android-settings:before {
+  content: "\eabd";
+}
+.icon-abb_design:before {
+  content: "\eabe";
+}
+.icon-abb_navigation-menu-3:before {
+  content: "\eabf";
+}
+.icon-abb_navigation-menu1:before {
+  content: "\eac0";
+}
+.icon-abb_normal-screen:before {
+  content: "\eac1";
+}
+.icon-abb_error .path1:before {
+  content: "\eac2";
+  color: rgb(0, 0, 0);
+}
+.icon-abb_error .path2:before {
+  content: "\eac3";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_error .path3:before {
+  content: "\eac4";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_information-circle1 .path1:before {
+  content: "\eac5";
+  color: rgb(0, 0, 0);
+}
+.icon-abb_information-circle1 .path2:before {
+  content: "\eac6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-abb_information-circle1 .path3:before {
+  content: "\eac7";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_information-circle1 .path4:before {
+  content: "\eac8";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-abb_information-circle1 .path5:before {
+  content: "\eac9";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_information-circle1 .path6:before {
+  content: "\eaca";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-abb_information-circle1 .path7:before {
+  content: "\eacb";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_tick .path1:before {
+  content: "\eacc";
+  color: rgb(0, 0, 0);
+}
+.icon-abb_tick .path2:before {
+  content: "\eacd";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_warning .path1:before {
+  content: "\eace";
+  color: rgb(0, 0, 0);
+}
+.icon-abb_warning .path2:before {
+  content: "\eacf";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_warning .path3:before {
+  content: "\ead0";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_warning .path4:before {
+  content: "\ead1";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-abb_cancel_small:before {
+  content: "\ead2";
+}
+.icon-abb_collapse-horizontal:before {
+  content: "\ead3";
+}
+.icon-abb_collapse-Vertical:before {
+  content: "\ead4";
+}
+.icon-abb_collapse:before {
+  content: "\ead5";
+}
+.icon-abb_expand-full:before {
+  content: "\ead6";
+}
+.icon-abb_expand-horizontal:before {
+  content: "\ead7";
+}
+.icon-abb_expand-vertical:before {
+  content: "\ead8";
+}
+.icon-abb_expand:before {
+  content: "\ead9";
+}
+.icon-abb_loading-circle-1:before {
+  content: "\eada";
+}
+.icon-abb_sidebar-collapes:before {
+  content: "\eadb";
+}
+.icon-thumb-down-dislike:before {
+  content: "\eadc";
+}
+.icon-abb_sidebar-expand:before {
+  content: "\eadd";
+}
+.icon-abb_tick-circle-1:before {
+  content: "\eade";
+}
+.icon-shrink:before {
+  content: "\eadf";
+}
+.icon-thumb-up-like:before {
+  content: "\eae0";
+}
+.icon-abb_abb_retouch-select-4:before {
+  content: "\eab1";
+}
+.icon-abb_check1:before {
+  content: "\eab2";
+}
+.icon-abb_check2:before {
+  content: "\eab3";
+}
+.icon-abb_copy-2-1:before {
+  content: "\eab4";
+}
+.icon-abb_layers-front-2:before {
+  content: "\eab5";
+}
+.icon-abb_send:before {
+  content: "\eab6";
+}
+.icon-abb_task-list-check5:before {
+  content: "\eab7";
+}
+.icon-abb_thumb-down-dislike:before {
+  content: "\eab8";
+}
+.icon-abb_thumb-up-like-7:before {
+  content: "\eab9";
+}
+.icon-abb_app-user:before {
+  content: "\eab0";
+}
+.icon-abb_contactless-payment:before {
+  content: "\eaa7";
+}
+.icon-abb_graph-stats-circle:before {
+  content: "\eaa8";
+}
+.icon-abb_photo-audio-player:before {
+  content: "\eaa9";
+}
+.icon-abb_rotor-dynamics:before {
+  content: "\eaaa";
+}
+.icon-abb_rotormodel-library:before {
+  content: "\eaab";
+}
+.icon-abb_RUL:before {
+  content: "\eaac";
+}
+.icon-abb_smartopertor:before {
+  content: "\eaad";
+}
+.icon-abb_user:before {
+  content: "\eaae";
+}
+.icon-abb_vibration-analytics:before {
+  content: "\eaaf";
+}
+.icon-abb_folder-open:before {
+  content: "\eaa1";
+}
+.icon-abb_app-plugin1:before {
+  content: "\ea9f";
+}
+.icon-abb_module-hand-puzzle:before {
+  content: "\eaa0";
+}
+.icon-abb_calendar1:before {
+  content: "\ea9d";
+}
+.icon-abb_service-chart:before {
+  content: "\ea9e";
+}
+.icon-abb_technology-robot-speech:before {
+  content: "\ea9c";
+}
+.icon-abb_area-location:before {
+  content: "\ea7e";
+}
+.icon-abb_battery-life:before {
+  content: "\ea7f";
+}
+.icon-abb_consumption:before {
+  content: "\ea80";
+}
+.icon-abb_device-measure:before {
+  content: "\ea81";
+}
+.icon-abb_download-1:before {
+  content: "\ea82";
+}
+.icon-abb_download-2:before {
+  content: "\ea83";
+}
+.icon-abb_Flow-percentage:before {
+  content: "\ea84";
+}
+.icon-abb_flow-rate:before {
+  content: "\ea85";
+}
+.icon-abb_forward:before {
+  content: "\ea86";
+}
+.icon-abb_health1:before {
+  content: "\ea87";
+}
+.icon-abb_maxflow:before {
+  content: "\ea88";
+}
+.icon-abb_min-flow:before {
+  content: "\ea89";
+}
+.icon-abb_night-flow:before {
+  content: "\ea8a";
+}
+.icon-abb_onboarding1:before {
+  content: "\ea8b";
+}
+.icon-abb_peak-flow:before {
+  content: "\ea8c";
+}
+.icon-abb_pressure:before {
+  content: "\ea8d";
+}
+.icon-abb_reverse:before {
+  content: "\ea8e";
+}
+.icon-abb_signal-quality:before {
+  content: "\ea8f";
+}
+.icon-abb_velocity:before {
+  content: "\ea90";
+}
+.icon-abb-event-log:before {
+  content: "\ea91";
+}
+.icon-Frame:before {
+  content: "\ea92";
+}
+.icon-abb_accounting-calculator-1:before {
+  content: "\ea93";
+}
+.icon-abb_brain-1:before {
+  content: "\ea94";
+}
+.icon-abb_calculate-table:before {
+  content: "\ea95";
+}
+.icon-abb_data-file-bars-remove:before {
+  content: "\ea96";
+}
+.icon-abb_file-code-search:before {
+  content: "\ea97";
+}
+.icon-abb_file-code-settings-1:before {
+  content: "\ea98";
+}
+.icon-abb_source-integration:before {
+  content: "\ea99";
+}
+.icon-abb_boiler:before {
+  content: "\ea9a";
+}
+.icon-abb_coolingtower:before {
+  content: "\ea9b";
+}
+.icon-abb_electronics-motor1:before {
+  content: "\ea7c";
+}
+.icon-abb_transformer:before {
+  content: "\ea7d";
+}
+.icon-abb_air-wind:before {
+  content: "\ea72";
+}
+.icon-abb_engineering:before {
+  content: "\ea73";
+}
+.icon-abb_innovation:before {
+  content: "\ea74";
+}
+.icon-abb_lab:before {
+  content: "\ea75";
+}
+.icon-abb_legal:before {
+  content: "\ea76";
+}
+.icon-abb_maintence:before {
+  content: "\ea77";
+}
+.icon-abb_mine:before {
+  content: "\ea78";
+}
+.icon-abb_permit:before {
+  content: "\ea79";
+}
+.icon-abb_personal-mangement:before {
+  content: "\ea7a";
+}
+.icon-abb_transport:before {
+  content: "\ea7b";
+}
+.icon-abb_popout-1:before {
+  content: "\ea71";
+}
+.icon-abb_view-1:before {
+  content: "\ea6b";
+}
+.icon-abb_color-bucket-brush:before {
+  content: "\ea6c";
+}
+.icon-abb_paragraph-center-align:before {
+  content: "\ea6d";
+}
+.icon-abb_paragraph-left-align:before {
+  content: "\ea6e";
+}
+.icon-abb_paragraph-right-align:before {
+  content: "\ea6f";
+}
+.icon-abb_text-justify:before {
+  content: "\ea70";
+}
+.icon-abb_database-warning1:before {
+  content: "\ea68";
+}
+.icon-abb_service-failure-warning-1:before {
+  content: "\ea69";
+}
+.icon-abb_sign-warning:before {
+  content: "\ea6a";
+}
+.icon-abb_arrange-letter:before {
+  content: "\ea5d";
+}
+.icon-abb_arrange-list-ascending-1:before {
+  content: "\ea5e";
+}
+.icon-abb_arrange-list-descending:before {
+  content: "\ea5f";
+}
+.icon-abb_arrow-button-down-2:before {
+  content: "\ea60";
+}
+.icon-abb_arrow-button-up:before {
+  content: "\ea61";
+}
+.icon-abb_color-bucket-1:before {
+  content: "\ea62";
+}
+.icon-abb_color-picker-3:before {
+  content: "\ea63";
+}
+.icon-abb_email-sending-circle:before {
+  content: "\ea64";
+}
+.icon-abb_messages-bubble-square-text:before {
+  content: "\ea65";
+}
+.icon-abb_navigation-up-circle:before {
+  content: "\ea66";
+}
+.icon-abb_visualisation:before {
+  content: "\ea67";
+}
+.icon-abb_calendar-add-1:before {
+  content: "\ea58";
+}
+.icon-abb_calendar-block:before {
+  content: "\ea59";
+}
+.icon-abb_data-file-bars-sync:before {
+  content: "\ea5a";
+}
+.icon-abb_hierarchy1:before {
+  content: "\ea5b";
+}
+.icon-abb_synchronize-refresh:before {
+  content: "\ea5c";
+}
+.icon-abb_-table-view:before {
+  content: "\ea54";
+}
+.icon-abb_excel-logo:before {
+  content: "\ea55";
+}
+.icon-abb_workflow-data-table-alert:before {
+  content: "\ea56";
+}
+.icon-abb_workflow-gantt-chart:before {
+  content: "\ea57";
+}
+.icon-abb_calendar-clock:before {
+  content: "\ea44";
+}
+.icon-abb_cloud-text:before {
+  content: "\ea45";
+}
+.icon-abb_dashboard-1:before {
+  content: "\ea46";
+}
+.icon-abb_data-file-clock:before {
+  content: "\ea47";
+}
+.icon-abb_download:before {
+  content: "\ea48";
+}
+.icon-abb_ecology-leaf-settings:before {
+  content: "\ea49";
+}
+.icon-abb_file-code-edit-1:before {
+  content: "\ea4a";
+}
+.icon-abb_folder1:before {
+  content: "\ea4b";
+}
+.icon-abb_license:before {
+  content: "\ea4c";
+}
+.icon-abb_note:before {
+  content: "\ea4d";
+}
+.icon-abb_privacy:before {
+  content: "\ea4e";
+}
+.icon-abb_renewable-energy-solar-panel:before {
+  content: "\ea4f";
+}
+.icon-abb_software-monitor-cog:before {
+  content: "\ea50";
+}
+.icon-abb_solar-panel-and-battery:before {
+  content: "\ea51";
+}
+.icon-abb_temperature-up:before {
+  content: "\ea52";
+}
+.icon-abb_web-service-managed-service-1:before {
+  content: "\ea53";
+}
+.icon-abb_home:before {
+  content: "\ea3b";
+}
+.icon-abb_truck-vehical:before {
+  content: "\ea3c";
+}
+.icon-abb_web-service-managed-service-search:before {
+  content: "\ea3d";
+}
+.icon-abb_alert-notification:before {
+  content: "\ea3e";
+}
+.icon-abb_read:before {
+  content: "\ea3f";
+}
+.icon-abb_app-setting-copy-2:before {
+  content: "\ea2a";
+}
+.icon-abb_delete-copy:before {
+  content: "\ea3a";
+}
+.icon-abb_alert-diamond:before {
+  content: "\ea2b";
+}
+.icon-abb_attachment:before {
+  content: "\ea2c";
+}
+.icon-abb_close-eyes:before {
+  content: "\ea2d";
+}
+.icon-abb_delete1:before {
+  content: "\ea2e";
+}
+.icon-abb_layout-cards:before {
+  content: "\ea2f";
+}
+.icon-abb_layout-list:before {
+  content: "\ea30";
+}
+.icon-abb_open-eyes:before {
+  content: "\ea31";
+}
+.icon-abb_pin:before {
+  content: "\ea32";
+}
+.icon-abb_question-circle:before {
+  content: "\ea33";
+}
+.icon-abb_share:before {
+  content: "\ea34";
+}
+.icon-abb_synchronize-arrows-search:before {
+  content: "\ea35";
+}
+.icon-abb_technology-head-ai:before {
+  content: "\ea36";
+}
+.icon-abb_technology-privacy:before {
+  content: "\ea37";
+}
+.icon-abb_time-clock:before {
+  content: "\ea38";
+}
+.icon-abb_tool-box:before {
+  content: "\ea39";
+}
+.icon-abb_alert-circle:before {
+  content: "\ea1a";
+}
+.icon-abb_arrow-button-left-1:before {
+  content: "\ea1b";
+}
+.icon-abb_arrow-button-right-1:before {
+  content: "\ea1c";
+}
+.icon-abb_arrow-left-1:before {
+  content: "\ea1d";
+}
+.icon-abb_arrow-left:before {
+  content: "\ea1e";
+}
+.icon-abb_arrow-right-1:before {
+  content: "\ea1f";
+}
+.icon-abb_calendar-favorite:before {
+  content: "\ea20";
+}
+.icon-abb_calendar-setting:before {
+  content: "\ea21";
+}
+.icon-abb_edit:before {
+  content: "\ea22";
+}
+.icon-abb_copy-1:before {
+  content: "\ea23";
+}
+.icon-abb_duplicate:before {
+  content: "\ea24";
+}
+.icon-abb_filter-3:before {
+  content: "\ea25";
+}
+.icon-abb_search-remove:before {
+  content: "\ea26";
+}
+.icon-abb_search1:before {
+  content: "\ea27";
+}
+.icon-abb_zoom-in:before {
+  content: "\ea28";
+}
+.icon-abb_zoom-out:before {
+  content: "\ea29";
+}
+.icon-abb_cancel-1:before {
+  content: "\ea0e";
+}
+.icon-abb_cancel-circle:before {
+  content: "\ea0f";
+}
+.icon-abb_delete:before {
+  content: "\ea10";
+}
+.icon-abb_global-nav:before {
+  content: "\ea11";
+}
+.icon-abb_information-circle:before {
+  content: "\ea12";
+}
+.icon-abb_location:before {
+  content: "\ea13";
+}
+.icon-abb_menu:before {
+  content: "\ea14";
+}
+.icon-abb_navigation-menu:before {
+  content: "\ea15";
+}
+.icon-abb_app-setting-copy:before {
+  content: "\ea16";
+}
+.icon-abb_back:before {
+  content: "\ea17";
+}
+.icon-abb_setting:before {
+  content: "\ea18";
+}
+.icon-abb_user-preferance:before {
+  content: "\ea19";
+}
+.icon-abb_app-window-graph:before {
+  content: "\ea08";
+}
+.icon-abb_analytics-graph:before {
+  content: "\ea09";
+}
+.icon-abb_analytics-pie-3:before {
+  content: "\ea0a";
+}
+.icon-abb_asset-looss-performance:before {
+  content: "\ea0b";
+}
+.icon-abb_business-moneysvg:before {
+  content: "\ea0c";
+}
+.icon-abb_loss:before {
+  content: "\ea0d";
+}
+.icon-abb_shield-settings:before {
+  content: "\ea04";
+}
+.icon-abb_administration:before {
+  content: "\ea05";
+}
+.icon-abb_Language:before {
+  content: "\ea06";
+}
+.icon-abb_logout:before {
+  content: "\ea07";
+}
+.icon-abb_schema1:before {
+  content: "\ea03";
+}
+.icon-abb_managementwrench:before {
+  content: "\ea00";
+}
+.icon-abb_copilot:before {
+  content: "\ea01";
+}
+.icon-abb_seo-search-graph:before {
+  content: "\ea02";
+}
+.icon-abb_add-circle:before {
+  content: "\e9f6";
+}
+.icon-abb_app-expand:before {
+  content: "\e9f7";
+}
+.icon-abb_app-minimize:before {
+  content: "\e9f8";
+}
+.icon-abb_employee:before {
+  content: "\e9f9";
+}
+.icon-abb_female:before {
+  content: "\e9fa";
+}
+.icon-abb_male:before {
+  content: "\e9fb";
+}
+.icon-abb_library:before {
+  content: "\e9fc";
+}
+.icon-abb_minus-circle:before {
+  content: "\e9fd";
+}
+.icon-abb_sync:before {
+  content: "\e9fe";
+}
+.icon-abb_upload-bottom:before {
+  content: "\e9ff";
+}
+.icon-abb_predictive-maintenance1:before {
+  content: "\e9ee";
+}
+.icon-abb_asset-model-lib:before {
+  content: "\e9ef";
+}
+.icon-abb_event-rules:before {
+  content: "\e9f0";
+}
+.icon-abb_fault-prediction:before {
+  content: "\e9f1";
+}
+.icon-abb_performance-monitoring:before {
+  content: "\e9f2";
+}
+.icon-abb_predict360:before {
+  content: "\e9f3";
+}
+.icon-abb_template--configuration:before {
+  content: "\e9f4";
+}
+.icon-abb_template-defination:before {
+  content: "\e9f5";
+}
+.icon-abb_calculation:before {
+  content: "\e9e0";
+}
+.icon-abb_contextualization:before {
+  content: "\e9e1";
+}
+.icon-abb_crane:before {
+  content: "\e9e2";
+}
+.icon-abb_data-catalog:before {
+  content: "\e9e3";
+}
+.icon-abb_device-model-copy:before {
+  content: "\e9e4";
+}
+.icon-abb_device-model:before {
+  content: "\e9e5";
+}
+.icon-abb_document-database:before {
+  content: "\e9e6";
+}
+.icon-abb_instance-datasets:before {
+  content: "\e9e7";
+}
+.icon-abb_instances:before {
+  content: "\e9e8";
+}
+.icon-abb_json1:before {
+  content: "\e9e9";
+}
+.icon-abb_ksh:before {
+  content: "\e9ea";
+}
+.icon-abb_reference-tables:before {
+  content: "\e9eb";
+}
+.icon-abb_schema:before {
+  content: "\e9ec";
+}
+.icon-abb_vision:before {
+  content: "\e9ed";
+}
+.icon-abb_database-warning:before {
+  content: "\e9dc";
+}
+.icon-abb_database-add:before {
+  content: "\e9dd";
+}
+.icon-abb_service-failure:before {
+  content: "\e9de";
+}
+.icon-abb_service-failure1:before {
+  content: "\e9df";
+}
+.icon-abb_performance-dashboard:before {
+  content: "\e9db";
+}
+.icon-abb_asset-add:before {
+  content: "\e9c9";
+}
+.icon-abb_asset-approve:before {
+  content: "\e9ca";
+}
+.icon-abb_asset-remove:before {
+  content: "\e9cb";
+}
+.icon-abb_asset-settings:before {
+  content: "\e9cc";
+}
+.icon-abb_asset-share:before {
+  content: "\e9cd";
+}
+.icon-abb_asset-subtract:before {
+  content: "\e9ce";
+}
+.icon-abb_asset-sync:before {
+  content: "\e9cf";
+}
+.icon-abb_asset-upload:before {
+  content: "\e9d0";
+}
+.icon-abb_asset-warning:before {
+  content: "\e9d1";
+}
+.icon-abb_common-file-text-check:before {
+  content: "\e9d2";
+}
+.icon-abb_dark:before {
+  content: "\e9d3";
+}
+.icon-abb_light:before {
+  content: "\e9d4";
+}
+.icon-abb_overlay:before {
+  content: "\e9d5";
+}
+.icon-abb_profile-approve:before {
+  content: "\e9d6";
+}
+.icon-abb_single-monitor:before {
+  content: "\e9d7";
+}
+.icon-abb_single-monitor1:before {
+  content: "\e9d8";
+}
+.icon-abb_spilt:before {
+  content: "\e9d9";
+}
+.icon-abb_theme:before {
+  content: "\e9da";
+}
+.icon-abb_gauge:before {
+  content: "\e9c3";
+}
+.icon-abb_tags-settings:before {
+  content: "\e9c4";
+}
+.icon-abb_tags-add:before {
+  content: "\e9c5";
+}
+.icon-abb_tags:before {
+  content: "\e9c6";
+}
+.icon-abb_charging:before {
+  content: "\e9c7";
+}
+.icon-abb_add-task-copy:before {
+  content: "\e9c8";
+}
+.icon-abb_list-document:before {
+  content: "\e9bd";
+}
+.icon-abb_document:before {
+  content: "\e9be";
+}
+.icon-abb_paper-write:before {
+  content: "\e9bf";
+}
+.icon-abb_equipment:before {
+  content: "\e9c0";
+}
+.icon-abb_calendar:before {
+  content: "\e9c1";
+}
+.icon-abb_time-clock-circle:before {
+  content: "\e9c2";
+}
+.icon-abb_check:before {
+  content: "\e9b9";
+}
+.icon-abb_completed2:before {
+  content: "\e9ba";
+}
+.icon-abb_digital-twin:before {
+  content: "\e9bb";
+}
+.icon-abb_performance-2:before {
+  content: "\e9bc";
+}
+.icon-abb_app-pie-chart:before {
+  content: "\e998";
+}
+.icon-abb_app-search:before {
+  content: "\e999";
+}
+.icon-abb_availability:before {
+  content: "\e99a";
+}
+.icon-abb_browser-hierarchy:before {
+  content: "\e99b";
+}
+.icon-abb_clock-file-timer:before {
+  content: "\e99c";
+}
+.icon-abb_CM-compliance:before {
+  content: "\e99d";
+}
+.icon-abb_cog-hand:before {
+  content: "\e99e";
+}
+.icon-abb_completed1:before {
+  content: "\e99f";
+}
+.icon-abb_customer-relationship:before {
+  content: "\e9a0";
+}
+.icon-abb_database-check:before {
+  content: "\e9a1";
+}
+.icon-abb_data-file-search:before {
+  content: "\e9a2";
+}
+.icon-abb_data-file-settings:before {
+  content: "\e9a3";
+}
+.icon-abb_data-search:before {
+  content: "\e9a4";
+}
+.icon-abb_graph-desktop:before {
+  content: "\e9a5";
+}
+.icon-abb_inprogress:before {
+  content: "\e9a6";
+}
+.icon-abb_inspection-warning:before {
+  content: "\e9a7";
+}
+.icon-abb_line-graph:before {
+  content: "\e9a8";
+}
+.icon-abb_maintenance-tool:before {
+  content: "\e9a9";
+}
+.icon-abb_maintence-cost:before {
+  content: "\e9aa";
+}
+.icon-abb_material-cost:before {
+  content: "\e9ab";
+}
+.icon-abb_money-decrease:before {
+  content: "\e9ac";
+}
+.icon-abb_monitor-chart:before {
+  content: "\e9ad";
+}
+.icon-abb_overdue:before {
+  content: "\e9ae";
+}
+.icon-abb_performance:before {
+  content: "\e9af";
+}
+.icon-abb_PM-compliance:before {
+  content: "\e9b0";
+}
+.icon-abb_CM-compliance1:before {
+  content: "\e9b1";
+}
+.icon-abb_report-graph:before {
+  content: "\e9b2";
+}
+.icon-abb_search:before {
+  content: "\e9b3";
+}
+.icon-abb_seo-search-settings:before {
+  content: "\e9b4";
+}
+.icon-abb_service-cost:before {
+  content: "\e9b5";
+}
+.icon-abb_time-MTBF:before {
+  content: "\e9b6";
+}
+.icon-abb_time-MTTR:before {
+  content: "\e9b7";
+}
+.icon-abb_tools-wench:before {
+  content: "\e9b8";
+}
+.icon-abb_alarm-bell-ring:before {
+  content: "\e987";
+}
+.icon-abb_alert-bell-notification-1:before {
+  content: "\e988";
+}
+.icon-abb_costcycle:before {
+  content: "\e989";
+}
+.icon-abb_data-file-warning:before {
+  content: "\e98a";
+}
+.icon-abb_documents:before {
+  content: "\e98b";
+}
+.icon-abb_health:before {
+  content: "\e98c";
+}
+.icon-abb_hierarchy:before {
+  content: "\e98d";
+}
+.icon-abb_layout-module:before {
+  content: "\e98e";
+}
+.icon-abb_layout-module-1:before {
+  content: "\e98f";
+}
+.icon-abb_layout-module-2:before {
+  content: "\e990";
+}
+.icon-abb_layout-module-3:before {
+  content: "\e991";
+}
+.icon-abb_loss-summary-:before {
+  content: "\e992";
+}
+.icon-abb_link-broken:before {
+  content: "\e993";
+}
+.icon-abb_maintenance:before {
+  content: "\e994";
+}
+.icon-abb_managementchange:before {
+  content: "\e995";
+}
+.icon-abb_operational:before {
+  content: "\e996";
+}
+.icon-abb_systemdetails:before {
+  content: "\e997";
+}
+.icon-abb_pie-line-graph:before {
+  content: "\e985";
+}
+.icon-abb_email-settings:before {
+  content: "\e986";
+}
+.icon-abb_physical-property:before {
+  content: "\e984";
+}
+.icon-abb_cursor-choose-interface:before {
+  content: "\e982";
+}
+.icon-abb_webpage-live-programing:before {
+  content: "\e983";
+  color: #686868;
+}
+.icon-abb_time-stopwatch:before {
+  content: "\e97b";
+}
+.icon-abb_timeout:before {
+  content: "\e97c";
+}
+.icon-abb_hourglass:before {
+  content: "\e97d";
+}
+.icon-abb_no-datafile:before {
+  content: "\e97e";
+}
+.icon-abb_security:before {
+  content: "\e97f";
+}
+.icon-abb_model-notification:before {
+  content: "\e97a";
+}
+.icon-abb_activitylog:before {
+  content: "\e920";
+}
+.icon-abb_undefined:before {
+  content: "\e978";
+}
+.icon-abb_multiplot:before {
+  content: "\e979";
+}
+.icon-abb_sequence:before {
+  content: "\e981";
+}
+.icon-abb_rules_configuration:before {
+  content: "\e976";
+}
+.icon-abb_Chemical:before {
+  content: "\e966";
+}
+.icon-abb_move:before {
+  content: "\e977";
+}
+.icon-abb_-centerline-creation:before {
+  content: "\e975";
+}
+.icon-abb_alerts:before {
+  content: "\e974";
+}
+.icon-abb_autocorrelation:before {
+  content: "\e970";
+}
+.icon-abb_correlation:before {
+  content: "\e971";
+}
+.icon-abb_crosscorrelation:before {
+  content: "\e972";
+}
+.icon-abb_decomposition:before {
+  content: "\e973";
+}
+.icon-abb_alarm-bell_32:before {
+  content: "\e96f";
+}
+.icon-abb_minimize_32:before {
+  content: "\e96e";
+}
+.icon-abb_analytical-insight:before {
+  content: "\e969";
+}
+.icon-abb_energyawarness:before {
+  content: "\e96a";
+}
+.icon-abb_reporting:before {
+  content: "\e96b";
+}
+.icon-abb_target-model:before {
+  content: "\e96c";
+}
+.icon-abb_target-setting:before {
+  content: "\e96d";
+}
+.icon-abb_merge-32:before {
+  content: "\e967";
+}
+.icon-abb_optimisation:before {
+  content: "\e968";
+}
+.icon-abb_powerconsumption:before {
+  content: "\e963";
+}
+.icon-abb_Mean-Time-Between-Failure_32:before {
+  content: "\e964";
+}
+.icon-abb_anamoly_32:before {
+  content: "\e965";
+}
+.icon-abb_-modelconfiguration:before {
+  content: "\e962";
+}
+.icon-abb_process:before {
+  content: "\e960";
+}
+.icon-abb_Centerline:before {
+  content: "\e980";
+}
+.icon-abb_actiontracker:before {
+  content: "\e95b";
+}
+.icon-abb_RCA:before {
+  content: "\e95c";
+}
+.icon-abb_analyzercondition:before {
+  content: "\e95d";
+}
+.icon-abb_onboarding:before {
+  content: "\e95e";
+}
+.icon-abb_report:before {
+  content: "\e95f";
+}
+.icon-abb_model-monitoring:before {
+  content: "\e95a";
+}
+.icon-abb_Company:before {
+  content: "\e958";
+}
+.icon-abb_Gas:before {
+  content: "\e959";
+}
+.icon-abb_asset-model-library:before {
+  content: "\e953";
+}
+.icon-abb_export-fault-modeling:before {
+  content: "\e954";
+}
+.icon-abb_fault_prediction:before {
+  content: "\e955";
+}
+.icon-abb_FMECA:before {
+  content: "\e956";
+}
+.icon-abb_predictive-maintenance:before {
+  content: "\e957";
+}
+.icon-abb_density-plot:before {
+  content: "\e951";
+}
+.icon-abb_add-failure-mode:before {
+  content: "\e952";
+}
+.icon-abb_deterioration:before {
+  content: "\e950";
+}
+.icon-abb_failure-mode-configuration:before {
+  content: "\e94f";
+}
+.icon-abb_create-machine-train:before {
+  content: "\e94e";
+}
+.icon-abb_add:before {
+  content: "\e94d";
+}
+.icon-abb_json:before {
+  content: "\e93c";
+}
+.icon-abb_minus:before {
+  content: "\e94b";
+}
+.icon-abb_switchgear:before {
+  content: "\e94c";
+}
+.icon-abb_datapre-processing_32:before {
+  content: "\e946";
+}
+.icon-abb_extraction:before {
+  content: "\e947";
+}
+.icon-abb_Identification:before {
+  content: "\e948";
+}
+.icon-abb_model-recommender:before {
+  content: "\e949";
+}
+.icon-abb_scenario-definition:before {
+  content: "\e94a";
+}
+.icon-abb_feedback:before {
+  content: "\e945";
+}
+.icon-abb_break:before {
+  content: "\e943";
+}
+.icon-abb_damage:before {
+  content: "\e944";
+}
+.icon-abb_base-tag .path1:before {
+  content: "\e941";
+  color: rgb(0, 0, 0);
+}
+.icon-abb_base-tag .path2:before {
+  content: "\eaa2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-abb_base-tag .path3:before {
+  content: "\eaa3";
+  margin-left: -1em;
+  color: rgb(31, 31, 31);
+}
+.icon-abb_derived-tag .path1:before {
+  content: "\e942";
+  color: rgb(31, 31, 31);
+}
+.icon-abb_derived-tag .path2:before {
+  content: "\eaa4";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-abb_derived-tag .path3:before {
+  content: "\eaa5";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-abb_asset-config:before {
+  content: "\e93f";
+}
+.icon-abb_templist:before {
+  content: "\e940";
+}
+.icon-abb_parameter:before {
+  content: "\e93d";
+}
+.icon-abb_template-detail:before {
+  content: "\e93e";
+}
+.icon-abb_-manager-user-data1:before {
+  content: "\e93b";
+}
+.icon-abb_data_validation:before {
+  content: "\e938";
+}
+.icon-abb_data-consolidation:before {
+  content: "\e939";
+}
+.icon-abb_system-tag-mapping1:before {
+  content: "\e93a";
+}
+.icon-abb_-manager-user-data:before {
+  content: "\e937";
+}
+.icon-abb_importexport:before {
+  content: "\e936";
+}
+.icon-abb_runtime:before {
+  content: "\e934";
+}
+.icon-abb_application-service:before {
+  content: "\e904";
+}
+.icon-abb_business-service:before {
+  content: "\e932";
+}
+.icon-abb_ICM-data:before {
+  content: "\e933";
+}
+.icon-abb_splitloss:before {
+  content: "\e935";
+}
+.icon-abb_reset:before {
+  content: "\e919";
+}
+.icon-abb_existingmapping:before {
+  content: "\e900";
+}
+.icon-abb_scheduler:before {
+  content: "\e931";
+}
+.icon-abb_role-defination:before {
+  content: "\e92d";
+}
+.icon-abb_effeciency:before {
+  content: "\e92e";
+}
+.icon-abb_loss-event:before {
+  content: "\e92f";
+}
+.icon-abb_mapping-user:before {
+  content: "\e930";
+}
+.icon-abb_schematic:before {
+  content: "\e92c";
+}
+.icon-abb_analysis:before {
+  content: "\e927";
+}
+.icon-abb_event:before {
+  content: "\e928";
+}
+.icon-abb_ack .path1:before {
+  content: "\e929";
+  color: rgb(31, 31, 31);
+}
+.icon-abb_ack .path2:before {
+  content: "\eaa6";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-abb_alarm-bell_disable:before {
+  content: "\e92a";
+}
+.icon-abb_playback:before {
+  content: "\e92b";
+}
+.icon-abb_system-configuration:before {
+  content: "\e926";
+}
+.icon-abb_data-explore1:before {
+  content: "\e921";
+}
+.icon-abb_deployment:before {
+  content: "\e922";
+}
+.icon-abb_model-registry:before {
+  content: "\e923";
+}
+.icon-abb_model-running:before {
+  content: "\e924";
+}
+.icon-abb_model-sandbox:before {
+  content: "\e925";
+}
+.icon-abb_operating-range:before {
+  content: "\e91d";
+}
+.icon-abb_system-detailsy:before {
+  content: "\e91e";
+}
+.icon-abb_system-equipment-mapping:before {
+  content: "\e91f";
+}
+.icon-abb_system-tag-mapping:before {
+  content: "\e961";
+}
+.icon-abb_batch-process-statistics:before {
+  content: "\e918";
+}
+.icon-abb_adapter-statistics:before {
+  content: "\e906";
+}
+.icon-abb_running:before {
+  content: "\e91a";
+}
+.icon-abb_stream--process-statistics:before {
+  content: "\e91b";
+}
+.icon-abb_total-process:before {
+  content: "\e91c";
+}
+.icon-abb_data_loading:before {
+  content: "\e916";
+}
+.icon-abb_data_transformation:before {
+  content: "\e917";
+}
+.icon-abb_Approvers:before {
+  content: "\e912";
+}
+.icon-abb_loss_categories:before {
+  content: "\e913";
+}
+.icon-abb_Notifications:before {
+  content: "\e914";
+}
+.icon-abb_Planned:before {
+  content: "\e915";
+}
+.icon-abb_interfacemonitor:before {
+  content: "\e90c";
+}
+.icon-abb_connection:before {
+  content: "\e90d";
+}
+.icon-abb_threshold:before {
+  content: "\e90e";
+}
+.icon-abb_Summary:before {
+  content: "\e90f";
+}
+.icon-abb_completed:before {
+  content: "\e910";
+}
+.icon-abb_Visualisation:before {
+  content: "\e911";
+}
+.icon-abb_InterfaceRegistry:before {
+  content: "\e90b";
+}
+.icon-abb_dashboard:before {
+  content: "\e90a";
+}
+.icon-abb_KPIdesigner:before {
+  content: "\e909";
+}
+.icon-abb_star_32:before {
+  content: "\e908";
+}
+.icon-abb_star_outline:before {
+  content: "\e907";
+}
+.icon-abb_joincondition:before {
+  content: "\e905";
+}
+.icon-abb_data-connection:before {
+  content: "\e901";
+}
+.icon-abb_data-connection_edit:before {
+  content: "\e902";
+}
+.icon-abb_data-mapping:before {
+  content: "\e903";
+}

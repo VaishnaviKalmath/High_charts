@@ -1,0 +1,285 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?dbxp28');
+  src:  url('fonts/icomoon.eot?dbxp28#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dbxp28') format('truetype'),
+    url('fonts/icomoon.woff?dbxp28') format('woff'),
+    url('fonts/icomoon.svg?dbxp28#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon_abb_arcadia{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  cursor: pointer;
+
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-abb_no-email-template:before {
+  content: "\e932";
+  color: #686868;
+}
+.icon-abb_no-server:before {
+  content: "\e939";
+  color: #686868;
+}
+.icon-abb_page-search:before {
+  content: "\e93e";
+  color: #686868;
+}
+.icon-abb_search-graph:before {
+  content: "\e93f";
+  color: #686868;
+}
+.icon-abb_time-stopwatch:before {
+  content: "\e928";
+  color: #686868;
+}
+.icon-abb_timeout:before {
+  content: "\e93a";
+  color: #686868;
+}
+.icon-abb_hourglass:before {
+  content: "\e93b";
+  color: #686868;
+}
+.icon-abb_no-datafile:before {
+  content: "\e93c";
+  color: #686868;
+}
+.icon-abb_security:before {
+  content: "\e93d";
+  color: #686868;
+}
+.icon-abb_anamoly:before {
+  content: "\e926";
+  color: #686868;
+}
+.icon-abb_Api:before {
+  content: "\e927";
+  color: #686868;
+}
+.icon-abb_bell-alert:before {
+  content: "\e929";
+  color: #686868;
+}
+.icon-abb_dashboard_1:before {
+  content: "\e92a";
+  color: #686868;
+}
+.icon-abb_dashboard_2:before {
+  content: "\e92b";
+  color: #686868;
+}
+.icon-abb_data:before {
+  content: "\e92c";
+  color: #686868;
+}
+.icon-abb_datetime:before {
+  content: "\e92d";
+  color: #686868;
+}
+.icon-abb_download:before {
+  content: "\e92e";
+  color: #686868;
+}
+.icon-abb_drag:before {
+  content: "\e92f";
+  color: #686868;
+}
+.icon-abb_gauge:before {
+  content: "\e930";
+  color: #686868;
+}
+.icon-abb_graph:before {
+  content: "\e931";
+  color: #686868;
+}
+.icon-abb_performance:before {
+  content: "\e933";
+  color: #686868;
+}
+.icon-abb_protect:before {
+  content: "\e934";
+  color: #686868;
+}
+.icon-abb_search-remove:before {
+  content: "\e935";
+  color: #686868;
+}
+.icon-abb_template-defination:before {
+  content: "\e936";
+  color: #686868;
+}
+.icon-abb_upload:before {
+  content: "\e937";
+  color: #686868;
+}
+.icon-abb_view:before {
+  content: "\e938";
+  color: #686868;
+}
+.icon-abb_active:before {
+  content: "\e917";
+  color: #686868;
+}
+.icon-abb_alarm-bell:before {
+  content: "\e918";
+  color: #686868;
+}
+.icon-abb_building:before {
+  content: "\e919";
+  color: #686868;
+}
+.icon-abb_charger:before {
+  content: "\e91a";
+  color: #686868;
+}
+.icon-abb_charging-flash:before {
+  content: "\e91b";
+  color: #686868;
+}
+.icon-abb_cross-circle:before {
+  content: "\e91c";
+  color: #686868;
+}
+.icon-abb_cursor-choose-interface:before {
+  content: "\e91d";
+  color: #686868;
+}
+.icon-abb_desktop-computer:before {
+  content: "\e91e";
+  color: #686868;
+}
+.icon-abb_no-data:before {
+  content: "\e91f";
+  color: #686868;
+}
+.icon-abb_performance-presentation:before {
+  content: "\e920";
+  color: #686868;
+}
+.icon-abb_setting:before {
+  content: "\e921";
+  color: #686868;
+}
+.icon-abb_temperature-thermometer-snow:before {
+  content: "\e922";
+  color: #686868;
+}
+.icon-abb_tick-circle:before {
+  content: "\e923";
+  color: #686868;
+}
+.icon-abb_usb-port-computers:before {
+  content: "\e924";
+  color: #686868;
+}
+.icon-abb_webpage-live-programing:before {
+  content: "\e925";
+  color: #686868;
+}
+.icon-abb_add:before {
+  content: "\e900";
+  color: #686868;
+}
+.icon-abb_addfile:before {
+  content: "\e901";
+  color: #686868;
+}
+.icon-abb_arrow-left:before {
+  content: "\e902";
+  color: #686868;
+}
+.icon-abb_arrow-left1:before {
+  content: "\e903";
+  color: #686868;
+}
+.icon-abb_arrow-right:before {
+  content: "\e904";
+  color: #686868;
+}
+.icon-abb_arrow-right1:before {
+  content: "\e905";
+  color: #686868;
+}
+.icon-abb_cards:before {
+  content: "\e906";
+  color: #686868;
+}
+.icon-abb_close:before {
+  content: "\e907";
+  color: #686868;
+}
+.icon-abb_database-add:before {
+  content: "\e908";
+  color: #686868;
+}
+.icon-abb_datamodel:before {
+  content: "\e909";
+  color: #686868;
+}
+.icon-abb_data-setting:before {
+  content: "\e90a";
+  color: #686868;
+}
+.icon-abb_delete:before {
+  content: "\e90b";
+  color: #686868;
+}
+.icon-abb_edit:before {
+  content: "\e90c";
+  color: #686868;
+}
+.icon-abb_filter:before {
+  content: "\e90d";
+  color: #686868;
+}
+.icon-abb_home:before {
+  content: "\e90e";
+  color: #686868;
+}
+.icon-abb_info:before {
+  content: "\e90f";
+  color: #686868;
+}
+.icon-abb_list:before {
+  content: "\e910";
+  color: #686868;
+}
+.icon-abb_matrix:before {
+  content: "\e911";
+  color: #686868;
+}
+.icon-abb_menu:before {
+  content: "\e912";
+  color: #686868;
+}
+.icon-abb_menu_1:before {
+  content: "\e913";
+  color: #686868;
+}
+.icon-abb_optimisation:before {
+  content: "\e914";
+  color: #686868;
+}
+.icon-abb_search:before {
+  content: "\e915";
+  color: #686868;
+}
+.icon-abb_settings:before {
+  content: "\e916";
+  color: #686868;
+}

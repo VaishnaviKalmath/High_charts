@@ -1,0 +1,45 @@
+/* Custom styles for the line chart container */
+#container {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Custom styles for the chart title */
+  .highcharts-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Custom styles for the x-axis labels */
+  .highcharts-xaxis-labels {
+    font-size: 12px;
+  }
+  
+  /* Custom styles for the y-axis labels */
+  .highcharts-yaxis-labels {
+    font-size: 12px;
+  }
+  
+  /* Custom styles for the chart legend */
+  .highcharts-legend {
+    font-size: 14px;
+  }
+  
+  /* Custom styles for the chart tooltip */
+  .highcharts-tooltip {
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  /* Custom styles for the draggable points */
+  .highcharts-point {
+    cursor: pointer;
+  }
+  
+  /* Custom styles for the draggable points when selected */
+  .highcharts-point-select {
+    fill: #ff0000; /* Change the color when selected */
+  }

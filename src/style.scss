@@ -1,0 +1,96 @@
+
+@use "@abb/arcadia-ui-angular/default-theme/variables" as *;
+@use "@abb/arcadia-ui-angular/core-scss/base/reset";
+
+@use "@abb/arcadia-ui-angular/default-theme/theme";
+
+@use "@abb/arcadia-ui-angular/core-scss/base/typography";
+@use "@abb/arcadia-ui-angular/core-scss/abstracts/mixins";
+
+@use "@abb/arcadia-ui-angular/core-scss/components/breadcrumb";
+@use "@abb/arcadia-ui-angular/core-scss/components/form_elements";
+@use "@abb/arcadia-ui-angular/core-scss/components/accordion";
+@use "@abb/arcadia-ui-angular/core-scss/components/mat-dialog";
+@use "@abb/arcadia-ui-angular/core-scss/components/tab_group";
+
+@use "@abb/arcadia-ui-angular/core-scss/components/progress_bar";
+@use "@abb/arcadia-ui-angular/core-scss/components/table";
+@use "@abb/arcadia-ui-angular/core-scss/layout/layout";
+@use "@abb/arcadia-ui-angular/core-scss/components/tooltip";
+@use "@abb/arcadia-ui-angular/core-scss/components/snack_bar";
+@use "@abb/arcadia-ui-angular/core-scss/components/stepper";
+@use "@abb/arcadia-ui-angular/core-scss/components/tree";
+
+@use "@abb/arcadia-ui-angular/core-scss/components/input";
+@use "@abb/arcadia-ui-angular/core-scss/components/tag";
+@use '@abb/arcadia-ui-angular/core-scss/components/matcard';
+@use '@abb/arcadia-ui-angular/core-scss/components/chips';
+@use '@abb/arcadia-ui-angular/core-scss/components/badge';
+@use '@abb/arcadia-ui-angular/core-scss/components/toolbar';
+@use '@abb/arcadia-ui-angular/core-scss/components/overflow_menu';;
+
+@font-face {
+    font-family: 'ABBVoice';
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Rg.eot');
+    /* IE9 Compat Modes */
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Rg.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Rg.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Rg.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Rg.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ABBVoice';
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Md.eot');
+    /* IE9 Compat Modes */
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Md.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Md.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Md.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Md.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ABBVoice';
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Lt.eot');
+    /* IE9 Compat Modes */
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Lt.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Lt.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Lt.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Lt.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'ABBVoice';
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Bd.eot');
+    /* IE9 Compat Modes */
+    src: url('assets/fonts/ABBVoice/ABBvoice_W_Bd.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Bd.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Bd.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('assets/fonts/ABBVoice/ABBvoice_W_Bd.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    font-weight: 700;
+    font-style: normal;
+  }
+  $base-font:'ABBVoice',Verdana;
+  
